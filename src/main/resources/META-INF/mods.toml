@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "GPL3.0"
+[[mods]]
+modId = "tconbreakthrough"
+version = "1.0.0"
+displayName = "tconbreakthrough"
+authors = "BIAN,CSDY,Web_13234"
+description = '''tconbreakthrough'''
+mixins = ["tconbreakthrough.mixins.json"]
+[[dependencies]]
+modId = "forge"
+mandatory = true
+versionRange = "1.18.2-40.2.10"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tconbreakthrough]]
+modId="tconstruct"
+mandatory=true
+versionRange="[3.6.4.113,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tconbreakthrough]]
+modId="mantle"
+mandatory=true
+versionRange="[1.9.45,)"
+ordering="NONE"
+side="BOTH"
